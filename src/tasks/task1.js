@@ -1,6 +1,5 @@
 function sayHello(name) {
-   if (typeof name !== 'string')
-      return
+   if (typeof name !== 'string') return;
    const favoriteFriend = 'Mark'
    const isItMark = name.toLowerCase() === favoriteFriend.toLowerCase()
    return `${isItMark ? 'Hi' : 'Hello'} ${name}!`;
@@ -9,8 +8,7 @@ function sayHello(name) {
 
 
 const sayHello1 = (name) => {
-   if (typeof name !== 'string')
-      return
+   if (typeof name !== 'string') return;
    const favoriteFriend = 'Mark'
    const isItMark = name.toLowerCase() === favoriteFriend.toLowerCase()
    return `${isItMark ? 'Hi' : 'Hello'} ${name}!`;

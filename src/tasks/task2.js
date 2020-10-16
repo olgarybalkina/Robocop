@@ -1,10 +1,10 @@
 function min(a, b) {
-
+   if (typeof a !== 'number' || typeof b !== 'number') return;
    return `${a < b ? a : b}`;
 }
 
 const min1 = (a, b) => {
-
+   if (typeof a !== 'number' || typeof b !== 'number') return;
    return `${a < b ? a : b}`;
 }
 

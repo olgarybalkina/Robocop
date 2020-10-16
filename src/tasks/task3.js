@@ -1,9 +1,9 @@
 function isEven(n) {
-   return (n % 2 == 0);
-  }
+   return (n % 2 === 0);
+}
 
 const isEven1 = (n) => {
-   return (n % 2 == 0);
+   return (n % 2 === 0);
 }
 
 console.log(isEven(4));
