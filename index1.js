@@ -1,5 +1,5 @@
 const newArray = [1, 2, 3, 4, 5, 6, 7];
-const newArray1 = [4, 2, 5];
+const newArray2 = [4, 2, 5];
 
 const multiplication3 = (arr) => {
    if (!Array.isArray(arr)) return;
@@ -9,4 +9,4 @@ const multiplication3 = (arr) => {
 }
 
 console.log(multiplication3(newArray));
-console.log(multiplication3(newArray1));
+console.log(multiplication3(newArray2));

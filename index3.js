@@ -4,8 +4,7 @@ const nameArray1 = ['asd', 'www', 'lol', 'React'];
 const findArray = (arr) => {
    if (!Array.isArray(arr)) return;
    return arr.filter((name, index, array) => {
-      const listOfNames = name.length > 4;
-      return listOfNames;
+      return name.length > 4;
    })
 }
 
